@@ -1,0 +1,128 @@
+﻿/* css的初始化 */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+body{
+	display: flex;  /* flex布局 */
+	flex-direction: column;  /* 调整主轴方向为 column */
+	font-size: 12px;
+	font-family: arial;
+}
+
+/* 顶部导航 */
+header.page-header{
+	padding-top: 20px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+header.page-header nav a{
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #333;
+	margin-left: 17px;
+	text-decoration: underline;
+}
+
+/* 更多产品 */
+.page-header nav a:last-child{
+	display: inline-block;
+	width: 60px;
+	height: 23px;
+	background: #38f;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 23px;
+}
+
+/* main主体 */
+div.page-mainer{
+	flex: 1;
+	text-align: center;
+	margin-top: 40px;
+}
+
+/* logo图片 */
+div.page-mainer .logo-container img{
+	height: 129px;
+	width: 270px;
+	margin-bottom: 22px;
+}
+
+/* 表单输入框 */
+div.page-mainer .form-container form{
+	display: flex;
+	justify-content: center;
+}
+
+div.page-mainer .form-container .form-search{
+	display: inline-block;
+	width: 539px;
+	height: 34px;
+	border: 1px solid #b6b6b6;
+	border-right: 0;
+	outline: none;
+	line-height: 34px;
+	padding-left: 10px;
+}
+
+/* focus伪类设置输入框focus后的边框 */
+div.page-mainer .form-container .form-search:focus{
+	border: 1px solid #4791FF;
+}
+
+/* 表单按钮-百度一下 */
+div.page-mainer .form-container .submit-btn{
+	width: 100px;
+	height: 36px;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 1px;
+	background: #3385FF;
+	border: 1px solid #3385FF;
+	outline: none;
+	cursor: pointer;
+}
+
+/* 设置hover悬浮时增加阴影 */
+div.page-mainer .form-container .submit-btn:hover{
+	background: #317ef3;
+	border-bottom: 1px solid #2868c8;
+	box-shadow: 1px 1px 1px #ccc;
+}
+
+/* footer部分 */
+footer.page-footer{
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+footer.page-footer .qrcode-container b{
+	color: #666;
+}
+
+footer.page-footer .footer-info{
+	margin-top: 20px;
+	color: #999;
+}
+
+footer.page-footer .footer-info a{
+	color: #999;
+	margin-right: 19px;
+}
+
+footer.page-footer .footer-info a:last-child{
+	margin-right: 0;
+}
+
+footer.page-footer .footer-info:last-child{
+	margin-top: 6px;
+}
