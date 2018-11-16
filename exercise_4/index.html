@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SeriesSum</title>
+</head>
+<body>
+  <h1>按F12查看结果hhh</h1>
+  <p>心得：使用了非常笨的方法进行for循环然后重组数组，不过也非常简单明了</p>
+  <p>当然有其他更加有效的方法可以实现，不过我不太会hhh，短时间就想到了这种</p>
+  <p>我在想有没有别的办法可以将 console.log里的内容直接输出到 doc的界面上</p>
+  <p>左边是firefox的控制台输出，右边chrome的控制台输出</p>
+  <img src="result.png" alt="result">
+  <script type="text/javascript">
+    const Series = [{
+      name: 'Web',
+      courses: [{
+        name: 'HTML',
+        lessons: [{
+          name: 'HTML Lesson 1'
+        },{
+          name: 'HTML Lesson 2'
+        },{
+          name: 'HTML Lesson 3'
+        }]
+      },{
+        name: 'CSS',
+        lessons: [{
+          name: 'CSS Lesson 1'
+        },{
+          name: 'CSS Lesson 2'
+        },{
+          name: 'CSS Lesson 3'
+        },{
+          name: 'CSS Lesson 4'
+        }]
+      },{
+        name: 'JavaScript',
+        lessons: [{
+          name: 'JavaScript Lesson 1'
+        },{
+          name: 'JavaScript Lesson 2'
+        }]
+      }]
+    },{
+      name: 'PHP',
+      courses: [{
+        name: 'Linux',
+        lessons: [{
+          name: 'Linux Lesson 1'
+        },{
+          name: 'Linux Lesson 2'
+        }]
+      },{
+        name: 'MySQL',
+        lessons: [{
+          name: 'MySQL Lesson 1'
+        },{
+          name: 'MySQL Lesson 2'
+        },{
+          name: 'MySQL Lesson 3'
+        },{
+          name: 'MySQL Lesson 4'
+        }]
+      },{
+        name: 'Nginx',
+        lessons: [{
+          name: 'Nginx Lesson 1'
+        },{
+          name: 'Nginx Lesson 2'
+        },{
+          name: 'Nginx Lesson 3'
+        },{
+          name: 'Nginx Lesson 4'
+        }]
+      }]
+    }]
+
+    // console.log(Series)  // 看出有两个 obj对象 {name: 'xx', courses: Array(3)}
+    function seriesSum(Series){
+      // 返回每个系列名称，及每个系列一共有多少个课（lesson 的总数）;
+
+      var arr = []  // 用来存储 每一个系列 eg: [ {name:"web", count:9}, ... ] 
+
+      for(var i = 0; i < Series.length; i++){
+        var obj = {}  // {name:'xxx', count:x}
+        var count = 0  // 用来存储 一个大系列中到底有几个 lesson
+        var series = Series[i];  // 每一个大系列，eg: Web和PHP 两个大系列
+
+        for(var j = 0 ; j < series['courses'].length; j++){
+          // 每个小系列 eg: html系列的lessons长度
+          var lessons_count = series['courses'][j]['lessons'].length  
+          count += lessons_count
+        }
+
+        // 组装 obj
+        obj.name = Series[i]['name']
+        obj.count = count
+        // console.log(obj)
+        arr.push(obj)
+      }
+      return arr;
+    }
+
+    let result = seriesSum(Series);
+    console.log(result);
+    // 结果
+    // [{
+    //  name: 'Web',
+    //  count: 9
+    // },{
+    //  name: 'PHP',
+    //  count: 10
+    // }]
+  </script>
+</body>
+</html>
