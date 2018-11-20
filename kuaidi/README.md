@@ -5,8 +5,6 @@
 		心得：hhh实话讲好久没写过了，在数组的获取那里卡了一下,
 		不过好在最后写出来了，写出来后也是很开心的
 
-
-        enjoy-binbin.github.io/kuaidi/images/detail.png
       
 ## 图片展示-首页index
 ![avatar](/kuaidi/images/index.png)
