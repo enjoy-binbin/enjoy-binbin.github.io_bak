@@ -1,0 +1,41 @@
+.page-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-content{
+  width: 630rpx;
+  text-align: center;
+}
+
+.logo-contaienr image{
+  width: 380rpx;
+  height: 340rpx;
+}
+
+.form-item{
+  margin-bottom: 10px;
+}
+
+.form-item-input{
+  border: 1px solid #ffdedf;
+  border-radius: 5px;
+  height: 42px;
+  color: #ff5a5f;
+  line-height: 42px;
+}
+
+.form-item-input_placeholder{
+  color: #ffdedf;
+}
+
+.form-item-btn{
+  background-color: #ff5a5f;
+  color: #fff;
+}
+
+.form-item-btn_hover{
+  opacity: .8;
+}

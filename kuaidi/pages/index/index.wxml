@@ -1,0 +1,28 @@
+<view class="page-container">
+  <view class="page-content">
+    <view class="logo-contaienr">
+      <image src="../../images/logo.png" mode='aspectFit'></image>
+    </view>
+    <view class="form-item">
+      <input class="form-item-input" type="number" placeholder="请输入快递单号" placeholder-class="form-item-input_placeholder" bindinput="handleChange"/>
+    </view>
+     
+ 
+ <view class="section">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{company_array}}">
+    <view class="picker">
+      选择快递公司：{{company_array[index]}}
+    </view>
+  </picker>
+</view>
+
+
+    <view class="form-item">
+      <button class="form-item-btn" hover-class="form-item-btn_hover" bindtap="handleSubmit">提交</button>
+    </view>
+    
+    <view class="form-item">
+      <button class="form-item-btn" hover-class="form-item-btn_hover" bindtap="handleScancode">点击扫快递条形码</button>
+    </view>
+  </view>
+</view>
