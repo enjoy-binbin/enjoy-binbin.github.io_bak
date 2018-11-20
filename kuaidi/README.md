@@ -6,12 +6,14 @@
 		不过好在最后写出来了，写出来后也是很开心的
 
 
+        enjoy-binbin.github.io/kuaidi/images/detail.png
+      
 ## 图片展示-首页index
-![avatar](./images/index.png)
-![avatar](./images/index2.png)
+![avatar](enjoy-binbin.github.io/kuaidi/images/index.png)
+![avatar](enjoy-binbin.github.io/kuaidi/images/index2.png)
 
 ## 选项框展示-selection
-![avatar](./images/selection.png)
+![avatar](enjoy-binbin.github.io/kuaidi/images/selection.png)
 
 ## 快递详情展示，经过测试，京东 申通 圆通的都行
-![avatar](./images/detail.png)
+![avatar](enjoy-binbin.github.io/kuaidi/images/detail.png)
