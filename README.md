@@ -34,7 +34,7 @@ Github Page由来。在此之前我根据自己所学的框架技术，进行过
 ### yaml+markdown文章(待补充)
 
 ```yaml
-在 ./_posts/ 目录下写文章，要求是Markdown格式的
+在 ./_posts/ 目录下写文章，要求是Markdown格式的，命名2019-06-05-title，关于我是在 /about/index.md
 在每个md文章的开头需要加上yaml front matter
 ---
 # 这里面是yaml的属性值
@@ -51,12 +51,9 @@ tags:  # 所属标签
 
 # 特殊文章
 links: http://www.baidu.com/  # 链接文章，提供一个链接，用于跳转，文章只用于跳转到别处
-<<<<<<< HEAD
 
 # 文章支付emoji
 # https://www.webfx.com/tools/emoji-cheat-sheet/
-=======
->>>>>>> d0a811ef4bfdd00d339e485f4f31ba0b7d2c28ea
 ```
 
 
