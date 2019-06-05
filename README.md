@@ -9,11 +9,7 @@ Github Page由来。在此之前我根据自己所学的框架技术，进行过
 对于Python和Django感兴趣的童鞋可以移步，此项目会一直维护，欢迎star和issue呀。 [binblog](https://github.com/enjoy-binbin/Django-blog) ![Binblog-stars](https://img.shields.io/github/stars/enjoy-binbin/binblog-Django.svg?style=social)![binblog-forks](https://img.shields.io/github/forks/enjoy-binbin/binblog-Django.svg?style=social) 。binblog项目实现了基于Py3.6和Django2.1的博客系统，拥有完备的admin后台管理，可以方便的用于个人博客管理。并且里面有使用到部分Django中级用法，我想到啥就会去加啥，并且代码中注释非常完善，很适合有Django经验的朋友~
 
 
-
-<a href="<https://enjoy-binbin.github.io/>" target="_blank">Github Page 在线预览 Preview</a>
-
-![NexT Schemes](http://iissnan.com/nexus/next/next-schemes.jpg)
-
+[Github Page 在线预览 Preview](<https://enjoy-binbin.github.io) 
 
 
 ### Gthub Page使用
