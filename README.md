@@ -31,6 +31,30 @@ Github Page由来。在此之前我根据自己所学的框架技术，进行过
 
 
 
+### yaml+markdown文章(待补充)
+
+```yaml
+在 ./_posts/ 目录下写文章，要求是Markdown格式的
+在每个md文章的开头需要加上yaml front matter
+---
+# 这里面是yaml的属性值
+---
+eg. 属性值介绍，key: value # 注释，写的时候就写key: value
+title: post_title  # 文章标题
+date: 2019-6-5 14:49:10  # 创建时间，好像是选填的，会根据文件日期
+categories:  # 文章所属分类
+- Python  # 分类一
+- Django  # 分类二
+tags:  # 所属标签
+- Django  # 标签一
+- Python  # 标签二
+
+# 特殊文章
+links: http://www.baidu.com/  # 链接文章，提供一个链接，用于跳转，文章只用于跳转到别处
+```
+
+
+
 ## 浏览器支持 Browser support
 
 ![Browser support](https://raw.githubusercontent.com/enjoy-binbin/enjoy-binbin.github.io/master/assets/images/browser-support.png)
