@@ -29,10 +29,9 @@ Github Page由来。在此之前我根据自己所学的框架技术，进行过
 #### _config.yml文件说明
 
 ```
-
+# http://theme-next.simpleyyt.com/getting-started.html
+# 直接参照文档自定义。或者试错
 ```
-
-
 
 
 
