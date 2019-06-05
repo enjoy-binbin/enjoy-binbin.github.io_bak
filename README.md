@@ -1,35 +1,41 @@
-# NexT
+# BinBlog
 
-> 精于心，简于形
+> 谨以此记录自己的做的笔记
 
-NexT 是由 [Hexo NexT](https://github.com/iissnan/hexo-theme-next) 移植而来的 Jekyll 主题。<!--commit: f951075d9b739d26b42472431995fa68d08796aa-->
+项目原出处 [hexo-theme-next](https://github.com/Simpleyyt/jekyll-theme-next) ，基于此进行自己的修改，这里感谢原作者。
 
-<a href="http://simpleyyt.github.io/jekyll-theme-next/" target="_blank">在线预览 Preview</a> | <a href="http://simpleyyt.com" target="_blank">Yitao's Blog</a> | <a href="http://theme-next.simpleyyt.com" target="_blank">NexT 使用文档</a> |  [English Documentation](README.en.md)
+Github Page由来。在此之前我根据自己所学的框架技术，进行过Tp-blog、Laravel-blog、Django-blog的开发。由于之前的服务器是部署在腾讯云和亚马逊云上，由于个人原因没有去运维和维护了。虽然博客系统里支持Markdown格式的文章，不过我还是更喜欢本地随手写的一个md笔记，不用考虑排版，就随意自己记录。
 
-[![Join the chat at https://gitter.im/simpleyyt/jekyll-theme-next](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jekyll-theme-next/lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+对于Python和Django感兴趣的童鞋可以移步，此项目会一直维护，欢迎star和issue呀。 [binblog](https://github.com/enjoy-binbin/Django-blog) ![Binblog-stars](https://img.shields.io/github/stars/enjoy-binbin/binblog-Django.svg?style=social)![binblog-forks](https://img.shields.io/github/forks/enjoy-binbin/binblog-Django.svg?style=social) 。binblog项目实现了基于Py3.6和Django2.1的博客系统，拥有完备的admin后台管理，可以方便的用于个人博客管理。并且里面有使用到部分Django中级用法，我想到啥就会去加啥，并且代码中注释非常完善，很适合有Django经验的朋友~
+
+
+
+<a href="<https://enjoy-binbin.github.io/>" target="_blank">Github Page 在线预览 Preview</a>
 
 ![NexT Schemes](http://iissnan.com/nexus/next/next-schemes.jpg)
 
 
+
+### Gthub Page使用
+
+```
+# https://github.com/enjoy-binbin/enjoy-binbin.github.io
+# 直接克隆项目后上传到自己的 github.io 仓库中，上面用户名需要设置成自己的
+# 有关github page的使用参阅相关文档百度谷歌资料
+```
+
+
+
+#### _config.yml文件说明
+
+```
+
+```
+
+
+
+
+
 ## 浏览器支持 Browser support
 
-![Browser support](http://iissnan.com/nexus/next/browser-support.png)
-
-
-## 贡献 Contributing
-
-欢迎提交问题与需求，修复代码。
-
-
-## 开发 Development
-
-NexT 主旨在于简洁优雅且易于使用，所以首先要尽量确保 NexT 的简洁易用性。
-
-NexT is built for easily use with elegant appearance. First things first, always keep things simple.
-
-
-## 捐赠
-
-支付宝捐赠链接还是要有的，万一真的有人捐呢。
-
-![支付宝扫码捐赠](http://7lryc0.com1.z0.glb.clouddn.com/a6x049034plyvjm1rvn4h28%20%281%29.png)
+![Browser support](https://raw.githubusercontent.com/enjoy-binbin/enjoy-binbin.github.io/master/assets/images/browser-support.png)
