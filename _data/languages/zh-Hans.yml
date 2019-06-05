@@ -50,7 +50,7 @@ page:
 
 footer:
   powered: "由 %s 强力驱动"
-  theme: 主题
+  django: 基于Django的博客系统
 
 counter:
   tag_cloud:
