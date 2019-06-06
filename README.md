@@ -22,6 +22,29 @@ Github Page由来。在此之前我根据自己所学的框架技术，进行过
 
 
 
+#### 本地安装
+
+```
+环境： win10 64
+1. 首先下载ruby，选择何时的ruby+devkit版本下载
+	https://rubyinstaller.org/downloads/
+2. 检查ruby是否安装成功
+	ruby --version
+3. 安装bundler
+	gem install bundler
+4. clone或者fork或者pull项目
+	git clone git@github.com:enjoy-binbin/enjoy-binbin.github.io.git
+5. cd进去，安装依赖
+	bundle install
+6. 运行jekyll
+	bundle exec jekyll server
+7. 访问127.0.0.1:4000
+```
+
+![4000](https://raw.githubusercontent.com/enjoy-binbin/enjoy-binbin.github.io/master/assets/images/readme.png)
+
+
+
 #### _config.yml文件说明
 
 ```
