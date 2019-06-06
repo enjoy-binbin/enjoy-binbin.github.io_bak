@@ -292,33 +292,33 @@
       {% if is_index %}
         {% if post.description and site.excerpt_description %}
           {{ post.description }}
-          <!--noindex-->
+          <!--noindex 1111-->
           <div class="post-button text-center">
             <a class="btn" href="{{ post.url | relative_url }}">
               {{ __.post.read_more }} &raquo;
             </a>
           </div>
-          <!--/noindex-->
-        {% elsif post.excerpt  %}
-          {% include _macro/post-excerpt.html %}
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="{{ post.url | relative_url }}{% if site.scroll_to_more %}#{{ __.post.more }}{% endif %}" rel="contents">
-              {{ __.post.read_more }} &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
+          <!--/noindex 111 -->
         {% elsif site.auto_excerpt.enable %}
           {% assign content = post.content | strip_html %}
           {{ content | slice: 0, site.auto_excerpt.length }}
           {% if content.size > site.auto_excerpt.length %}...{% endif %}
-          <!--noindex-->
+          <!--noindex 333-->
           <div class="post-button text-center">
             <a class="btn" href="{{ post.url | relative_url }}{% if site.scroll_to_more %}#{{ __.post.more }}{% endif %}" rel="contents">
               {{ __.post.read_more }} &raquo;
             </a>
           </div>
-          <!--/noindex-->
+          <!--/noindex 333-->
+        {% elsif post.excerpt  %}
+          {% include _macro/post-excerpt.html %}
+          <!--noindex 222-->
+          <div class="post-button text-center">
+            <a class="btn" href="{{ post.url | relative_url }}{% if site.scroll_to_more %}#{{ __.post.more }}{% endif %}" rel="contents">
+              {{ __.post.read_more }} &raquo;
+            </a>
+          </div>
+          <!--/noindex 222-->
         {% else %}
           {% if post.type == 'picture' %}
             <a href="{{ post.url | relative_url }}">{{ post.content }}</a>
