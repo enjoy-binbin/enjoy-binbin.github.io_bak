@@ -57,3 +57,4 @@ pip install gunicorn
 gunicorn --daemon --workers 2 --bind unix:/tmp/bin.lotiger.cn.socket binblog.wsgi:application
 ```
 
+docker rm -f nginx mysql django-blog
